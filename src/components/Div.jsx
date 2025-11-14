@@ -1,0 +1,10 @@
+
+const Div = ({children, style}) => {
+  return (
+    <>
+      <div className={style}>{children}</div>
+    </>
+  );
+}
+
+export default Div;
